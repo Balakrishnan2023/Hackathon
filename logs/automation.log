@@ -1,0 +1,1623 @@
+2024-11-05 09:38:10 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 09:38:10 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 09:38:10 INFO  TC_001_SearchForWebDevelopmentCourses:71 - Visible product found, applying difficulty filter
+2024-11-05 09:38:10 INFO  TC_001_SearchForWebDevelopmentCourses:73 - Beginners checkbox ticked
+2024-11-05 09:38:10 INFO  TC_001_SearchForWebDevelopmentCourses:75 - Clicked on result
+2024-11-05 09:38:12 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 09:38:12 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 09:38:12 ERROR TC_001_SearchForWebDevelopmentCourses:107 - An error occurred during the test case execution: 
+java.io.FileNotFoundException: C:\Users\2361584\Downloads\2361526_AthulKrishna(Identifying_courses) 2\identifying_courses\screenshotscourses.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.25.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.25.0.jar:?]
+	at testBase.BaseClass.takeScreenshot(BaseClass.java:81) ~[test-classes/:?]
+	at testCases.TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses(TC_001_SearchForWebDevelopmentCourses.java:93) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-11-05 09:39:39 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 09:39:39 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 09:40:12 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 09:40:12 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:80 - Visible product found, clicking 'Language Button'
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:82 - 'Language Button' clicked
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:88 - LANGUAGES:
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 1: English
+(4,224)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 2: Spanish
+(2,393)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 3: Arabic
+(2,274)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 4: French
+(2,261)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 5: Portuguese (Brazil)
+(2,249)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 6: German
+(2,211)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 7: Chinese (China)
+(2,206)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 8: Indonesian
+(2,203)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 9: Japanese
+(2,191)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 10: Korean
+(2,187)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 11: Turkish
+(2,155)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 12: Ukrainian
+(2,154)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 13: Italian
+(2,147)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 14: Russian
+(2,143)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 15: Thai
+(2,133)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 16: Hindi
+(2,132)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 17: Polish
+(2,130)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 18: Swedish
+(2,130)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 19: Dutch
+(2,129)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 20: Greek
+(2,129)
+2024-11-05 09:40:13 INFO  TC_002_Language_Learning:94 - Language 21: Kazakh
+(1,967)
+2024-11-05 09:40:14 INFO  TC_002_Language_Learning:94 - Language 22: Hungarian
+(1,400)
+2024-11-05 09:40:14 INFO  TC_002_Language_Learning:94 - Language 23: Pushto
+(229)
+2024-11-05 09:40:14 INFO  TC_002_Language_Learning:94 - Language 24: Chinese (Traditional)
+(16)
+2024-11-05 09:40:14 INFO  TC_002_Language_Learning:94 - Language 25: Vietnamese
+(7)
+2024-11-05 09:40:14 INFO  TC_002_Language_Learning:94 - Language 26: Hebrew
+(3)
+2024-11-05 09:40:14 INFO  TC_002_Language_Learning:94 - Language 27: Portuguese
+(1)
+2024-11-05 09:40:14 INFO  TC_002_Language_Learning:102 - 'Result' clicked
+2024-11-05 09:40:14 INFO  TC_002_Language_Learning:105 - 'Difficulty' clicked
+2024-11-05 09:40:14 ERROR TC_002_Language_Learning:130 - An error occurred during the test case execution: 
+java.io.FileNotFoundException: C:\Users\2361584\Downloads\2361526_AthulKrishna(Identifying_courses) 2\identifying_courses\screenshotslanguages learning.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.25.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.25.0.jar:?]
+	at testBase.BaseClass.takeScreenshot(BaseClass.java:81) ~[test-classes/:?]
+	at testCases.TC_002_Language_Learning.selectingLanguages(TC_002_Language_Learning.java:107) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-11-05 09:40:54 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 09:40:54 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 09:40:54 INFO  TC_001_SearchForWebDevelopmentCourses:71 - Visible product found, applying difficulty filter
+2024-11-05 09:40:54 INFO  TC_001_SearchForWebDevelopmentCourses:73 - Beginners checkbox ticked
+2024-11-05 09:40:54 INFO  TC_001_SearchForWebDevelopmentCourses:75 - Clicked on result
+2024-11-05 09:40:56 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 09:40:56 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 09:40:56 ERROR TC_001_SearchForWebDevelopmentCourses:107 - An error occurred during the test case execution: 
+java.io.FileNotFoundException: C:\Users\2361584\Downloads\2361526_AthulKrishna(Identifying_courses) 2\identifying_courses\screenshotscourses.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.25.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.25.0.jar:?]
+	at testBase.BaseClass.takeScreenshot(BaseClass.java:81) ~[test-classes/:?]
+	at testCases.TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses(TC_001_SearchForWebDevelopmentCourses.java:93) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-11-05 09:41:02 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 09:41:02 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 09:42:35 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 09:42:35 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 09:42:35 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 09:42:36 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 09:42:36 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 09:42:36 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 09:42:36 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 09:42:36 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 09:42:36 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 09:42:36 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 09:42:36 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 09:42:37 ERROR TC_003_FormFilling:75 - An error occurred during the form filling process: 
+java.io.FileNotFoundException: C:\Users\2361584\Downloads\2361526_AthulKrishna(Identifying_courses) 2\identifying_courses\screenshotsform filling.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235) ~[?:?]
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184) ~[?:?]
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:131) ~[selenium-os-4.25.0.jar:?]
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:110) ~[selenium-os-4.25.0.jar:?]
+	at testBase.BaseClass.takeScreenshot(BaseClass.java:81) ~[test-classes/:?]
+	at testCases.TC_003_FormFilling.formFilling(TC_003_FormFilling.java:61) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-11-05 09:43:37 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 09:43:37 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:80 - Visible product found, clicking 'Language Button'
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:82 - 'Language Button' clicked
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:88 - LANGUAGES:
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 1: English
+(4,224)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 2: Spanish
+(2,393)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 3: Arabic
+(2,274)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 4: French
+(2,261)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 5: Portuguese (Brazil)
+(2,249)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 6: German
+(2,211)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 7: Chinese (China)
+(2,206)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 8: Indonesian
+(2,203)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 9: Japanese
+(2,191)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 10: Korean
+(2,187)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 11: Turkish
+(2,155)
+2024-11-05 09:44:11 INFO  TC_002_Language_Learning:94 - Language 12: Ukrainian
+(2,154)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 13: Italian
+(2,147)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 14: Russian
+(2,143)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 15: Thai
+(2,133)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 16: Hindi
+(2,132)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 17: Polish
+(2,130)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 18: Swedish
+(2,130)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 19: Dutch
+(2,129)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 20: Greek
+(2,129)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 21: Kazakh
+(1,967)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 22: Hungarian
+(1,400)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 23: Pushto
+(229)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 24: Chinese (Traditional)
+(16)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 25: Vietnamese
+(7)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 26: Hebrew
+(3)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:94 - Language 27: Portuguese
+(1)
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:102 - 'Result' clicked
+2024-11-05 09:44:12 INFO  TC_002_Language_Learning:105 - 'Difficulty' clicked
+2024-11-05 09:44:13 INFO  TC_002_Language_Learning:108 - Screenshot taken for languages learning
+2024-11-05 09:44:13 INFO  TC_002_Language_Learning:110 - LEVELS:
+2024-11-05 09:44:13 INFO  TC_002_Language_Learning:116 - Level 1: Beginner
+(2,116)
+2024-11-05 09:44:13 INFO  TC_002_Language_Learning:116 - Level 2: Intermediate
+(1,552)
+2024-11-05 09:44:13 INFO  TC_002_Language_Learning:116 - Level 3: Advanced
+(155)
+2024-11-05 09:44:13 INFO  TC_002_Language_Learning:116 - Level 4: Mixed
+(351)
+2024-11-05 09:44:13 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 09:44:13 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 09:44:53 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 09:44:53 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 09:45:03 INFO  TC_001_SearchForWebDevelopmentCourses:41 - No visible product found, applying filters
+2024-11-05 09:45:04 INFO  TC_001_SearchForWebDevelopmentCourses:45 - English checkbox ticked
+2024-11-05 09:45:04 INFO  TC_001_SearchForWebDevelopmentCourses:47 - Beginners checkbox ticked
+2024-11-05 09:45:06 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 09:45:06 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 09:45:06 INFO  TC_001_SearchForWebDevelopmentCourses:66 - Screenshot taken for courses
+2024-11-05 09:45:06 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 09:45:06 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 09:45:13 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 09:45:13 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 09:46:50 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 09:46:50 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 09:46:50 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 09:46:51 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 09:46:51 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 09:46:51 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 09:46:51 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 09:46:51 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 09:46:51 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 09:46:51 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 09:46:51 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 09:46:52 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 09:46:52 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 09:46:52 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 09:57:43 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 09:57:43 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 09:57:44 INFO  TC_001_SearchForWebDevelopmentCourses:71 - Visible product found, applying difficulty filter
+2024-11-05 09:57:44 INFO  TC_001_SearchForWebDevelopmentCourses:73 - Beginners checkbox ticked
+2024-11-05 09:57:44 INFO  TC_001_SearchForWebDevelopmentCourses:75 - Clicked on result
+2024-11-05 09:57:46 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 09:57:46 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 09:57:47 INFO  TC_001_SearchForWebDevelopmentCourses:94 - Screenshot taken for courses
+2024-11-05 09:57:47 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 09:57:47 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 10:04:37 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 10:04:37 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 10:04:37 INFO  TC_001_SearchForWebDevelopmentCourses:71 - Visible product found, applying difficulty filter
+2024-11-05 10:04:37 INFO  TC_001_SearchForWebDevelopmentCourses:73 - Beginners checkbox ticked
+2024-11-05 10:04:37 INFO  TC_001_SearchForWebDevelopmentCourses:75 - Clicked on result
+2024-11-05 10:04:39 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 10:04:39 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 10:04:39 INFO  TC_001_SearchForWebDevelopmentCourses:94 - Screenshot taken for courses
+2024-11-05 10:04:39 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 10:04:39 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 10:04:47 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 10:04:47 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 10:04:52 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 10:04:52 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 10:04:52 INFO  TC_002_Language_Learning:80 - Visible product found, clicking 'Language Button'
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:82 - 'Language Button' clicked
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:88 - LANGUAGES:
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 1: English
+(4,224)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 2: Spanish
+(2,393)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 3: Arabic
+(2,274)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 4: French
+(2,261)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 5: Portuguese (Brazil)
+(2,249)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 6: German
+(2,211)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 7: Chinese (China)
+(2,206)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 8: Indonesian
+(2,203)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 9: Japanese
+(2,191)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 10: Korean
+(2,187)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 11: Turkish
+(2,155)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 12: Ukrainian
+(2,154)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 13: Italian
+(2,147)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 14: Russian
+(2,143)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 15: Thai
+(2,133)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 16: Hindi
+(2,132)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 17: Polish
+(2,130)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 18: Swedish
+(2,130)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 19: Dutch
+(2,129)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 20: Greek
+(2,129)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 21: Kazakh
+(1,967)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 22: Hungarian
+(1,400)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 23: Pushto
+(229)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 24: Chinese (Traditional)
+(16)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 25: Vietnamese
+(7)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 26: Hebrew
+(3)
+2024-11-05 10:04:53 INFO  TC_002_Language_Learning:94 - Language 27: Portuguese
+(1)
+2024-11-05 10:04:54 INFO  TC_002_Language_Learning:102 - 'Result' clicked
+2024-11-05 10:04:54 INFO  TC_002_Language_Learning:105 - 'Difficulty' clicked
+2024-11-05 10:04:54 INFO  TC_002_Language_Learning:108 - Screenshot taken for languages learning
+2024-11-05 10:04:54 INFO  TC_002_Language_Learning:110 - LEVELS:
+2024-11-05 10:04:54 INFO  TC_002_Language_Learning:116 - Level 1: Beginner
+(2,116)
+2024-11-05 10:04:54 INFO  TC_002_Language_Learning:116 - Level 2: Intermediate
+(1,552)
+2024-11-05 10:04:54 INFO  TC_002_Language_Learning:116 - Level 3: Advanced
+(155)
+2024-11-05 10:04:54 INFO  TC_002_Language_Learning:116 - Level 4: Mixed
+(351)
+2024-11-05 10:04:55 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 10:04:55 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 10:05:04 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:05:04 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:05:10 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:05:11 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:05:11 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:05:11 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:06:45 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 10:06:45 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 10:06:45 ERROR TC_001_SearchForWebDevelopmentCourses:107 - An error occurred during the test case execution: 
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [002d3a6addcf94da6421a8e7e03e26b7, sendKeysToElement {id=f.8C9970345EB614987B0195FA90E80BD2.d.0FA4278E34BDC1FA0BA9A4C1EEC16417.e.52, value=[Ljava.lang.CharSequence;@196c54f4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57733/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (002d3a6addcf94da6421a8e7e03e26b7)] -> xpath: //input[@id='search-autocomplete-input']]
+Session ID: 002d3a6addcf94da6421a8e7e03e26b7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110) ~[selenium-remote-driver-4.25.0.jar:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source) ~[?:?]
+	at pageObjects.HomePage.search(HomePage.java:27) ~[test-classes/:?]
+	at testCases.TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses(TC_001_SearchForWebDevelopmentCourses.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2024-11-05 10:06:55 INFO  TC_001_SearchForWebDevelopmentCourses:41 - No visible product found, applying filters
+2024-11-05 10:06:55 INFO  TC_001_SearchForWebDevelopmentCourses:45 - English checkbox ticked
+2024-11-05 10:06:58 ERROR TC_001_SearchForWebDevelopmentCourses:107 - An error occurred during the test case execution: 
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [002d3a6addcf94da6421a8e7e03e26b7, findElement {using=xpath, value=//span[text()='Beginner']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57733}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57733/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 002d3a6addcf94da6421a8e7e03e26b7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.25.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source) ~[?:?]
+	at pageObjects.WebDevelopmentPage.tickBeginnersCheckBox(WebDevelopmentPage.java:54) ~[test-classes/:?]
+	at testCases.TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses(TC_001_SearchForWebDevelopmentCourses.java:46) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2024-11-05 10:07:10 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 10:07:10 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:80 - Visible product found, clicking 'Language Button'
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:82 - 'Language Button' clicked
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:88 - LANGUAGES:
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:94 - Language 1: English
+(4,222)
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:94 - Language 2: Spanish
+(2,392)
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:94 - Language 3: Arabic
+(2,274)
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:94 - Language 4: French
+(2,261)
+2024-11-05 10:07:15 INFO  TC_002_Language_Learning:94 - Language 5: Portuguese (Brazil)
+(2,249)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 6: German
+(2,211)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 7: Chinese (China)
+(2,206)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 8: Indonesian
+(2,203)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 9: Japanese
+(2,191)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 10: Korean
+(2,187)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 11: Turkish
+(2,155)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 12: Ukrainian
+(2,154)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 13: Italian
+(2,147)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 14: Russian
+(2,143)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 15: Thai
+(2,133)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 16: Hindi
+(2,132)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 17: Polish
+(2,130)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 18: Swedish
+(2,130)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 19: Dutch
+(2,129)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 20: Greek
+(2,129)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 21: Kazakh
+(1,967)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 22: Hungarian
+(1,400)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 23: Pushto
+(229)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 24: Chinese (Traditional)
+(16)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 25: Vietnamese
+(7)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 26: Hebrew
+(3)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:94 - Language 27: Portuguese
+(1)
+2024-11-05 10:07:16 INFO  TC_002_Language_Learning:102 - 'Result' clicked
+2024-11-05 10:07:17 INFO  TC_002_Language_Learning:105 - 'Difficulty' clicked
+2024-11-05 10:07:17 INFO  TC_002_Language_Learning:108 - Screenshot taken for languages learning
+2024-11-05 10:07:17 INFO  TC_002_Language_Learning:110 - LEVELS:
+2024-11-05 10:07:17 INFO  TC_002_Language_Learning:116 - Level 1: Beginner
+(2,114)
+2024-11-05 10:07:17 INFO  TC_002_Language_Learning:116 - Level 2: Intermediate
+(1,552)
+2024-11-05 10:07:17 INFO  TC_002_Language_Learning:116 - Level 3: Advanced
+(155)
+2024-11-05 10:07:17 INFO  TC_002_Language_Learning:116 - Level 4: Mixed
+(351)
+2024-11-05 10:07:18 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 10:07:18 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 10:07:26 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:07:26 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:07:31 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:07:31 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:07:31 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:07:31 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:07:31 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:07:31 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:07:31 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:07:31 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:07:31 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:07:32 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:07:32 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:07:32 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:07:32 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:07:32 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:08:50 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 10:08:50 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 10:08:50 INFO  TC_001_SearchForWebDevelopmentCourses:71 - Visible product found, applying difficulty filter
+2024-11-05 10:08:50 INFO  TC_001_SearchForWebDevelopmentCourses:73 - Beginners checkbox ticked
+2024-11-05 10:08:50 INFO  TC_001_SearchForWebDevelopmentCourses:75 - Clicked on result
+2024-11-05 10:08:51 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 10:08:51 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 10:08:52 INFO  TC_001_SearchForWebDevelopmentCourses:94 - Screenshot taken for courses
+2024-11-05 10:08:52 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 10:08:52 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 10:09:01 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 10:09:01 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 10:09:05 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 10:09:05 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 10:09:15 INFO  TC_002_Language_Learning:43 - No visible product found, clicking 'Show More'
+2024-11-05 10:09:15 INFO  TC_002_Language_Learning:45 - 'Show More' clicked
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:53 - Screenshot taken for languages learning
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:55 - LANGUAGES:
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 1: English(4,222)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 2: Spanish(2,392)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 3: Arabic(2,274)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 4: French(2,261)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 5: Portuguese (Brazil)(2,249)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 6: German(2,211)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 7: Chinese (China)(2,206)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 8: Indonesian(2,203)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 9: Japanese(2,191)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 10: Korean(2,187)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 11: Turkish(2,155)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 12: Ukrainian(2,154)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 13: Italian(2,147)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 14: Russian(2,143)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 15: Thai(2,133)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 16: Hindi(2,132)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 17: Polish(2,130)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 18: Swedish(2,130)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 19: Dutch(2,129)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 20: Greek(2,129)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 21: Kazakh(1,967)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 22: Hungarian(1,400)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 23: Pushto(229)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 24: Chinese (Traditional)(16)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 25: Vietnamese(7)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 26: Hebrew(3)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:61 - Language 27: Portuguese(1)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:67 - LEVELS:
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:73 - Level 1: Beginner(2,409)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:73 - Level 2: Intermediate(1,704)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:73 - Level 3: Advanced(179)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:73 - Level 4: Mixed(416)
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 10:09:16 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 10:09:25 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:09:25 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:09:31 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:09:31 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:09:31 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:09:31 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:09:31 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:09:31 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:09:31 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:09:31 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:09:31 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:09:32 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:09:32 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:09:32 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:09:32 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:09:32 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:11:36 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 10:11:36 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 10:11:46 INFO  TC_001_SearchForWebDevelopmentCourses:41 - No visible product found, applying filters
+2024-11-05 10:11:46 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 10:11:46 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 10:11:46 INFO  TC_001_SearchForWebDevelopmentCourses:45 - English checkbox ticked
+2024-11-05 10:11:56 INFO  TC_001_SearchForWebDevelopmentCourses:41 - No visible product found, applying filters
+2024-11-05 10:11:57 INFO  TC_001_SearchForWebDevelopmentCourses:47 - Beginners checkbox ticked
+2024-11-05 10:11:57 INFO  TC_001_SearchForWebDevelopmentCourses:45 - English checkbox ticked
+2024-11-05 10:11:58 INFO  TC_001_SearchForWebDevelopmentCourses:47 - Beginners checkbox ticked
+2024-11-05 10:12:00 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 10:12:00 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 10:12:00 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 10:12:00 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 10:12:00 INFO  TC_001_SearchForWebDevelopmentCourses:66 - Screenshot taken for courses
+2024-11-05 10:12:00 INFO  TC_001_SearchForWebDevelopmentCourses:66 - Screenshot taken for courses
+2024-11-05 10:12:01 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 10:12:01 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 10:12:01 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 10:12:01 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 10:12:07 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 10:12:07 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 10:12:12 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 10:12:12 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 10:12:13 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 10:12:13 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 10:12:16 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 10:12:16 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 10:12:26 INFO  TC_002_Language_Learning:43 - No visible product found, clicking 'Show More'
+2024-11-05 10:12:36 INFO  TC_002_Language_Learning:43 - No visible product found, clicking 'Show More'
+2024-11-05 10:12:36 INFO  TC_002_Language_Learning:45 - 'Show More' clicked
+2024-11-05 10:12:36 INFO  TC_002_Language_Learning:45 - 'Show More' clicked
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:53 - Screenshot taken for languages learning
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:55 - LANGUAGES:
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:53 - Screenshot taken for languages learning
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:55 - LANGUAGES:
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:61 - Language 1: English(4,224)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:61 - Language 1: English(4,224)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:61 - Language 2: Spanish(2,393)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:61 - Language 2: Spanish(2,393)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:61 - Language 3: Arabic(2,274)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:61 - Language 3: Arabic(2,274)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:61 - Language 4: French(2,261)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:67 - LEVELS:
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:61 - Language 4: French(2,261)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:67 - LEVELS:
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:73 - Level 1: Beginner(2,412)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:73 - Level 1: Beginner(2,412)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:73 - Level 2: Intermediate(1,704)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:73 - Level 2: Intermediate(1,704)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:73 - Level 3: Advanced(179)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:73 - Level 3: Advanced(179)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:73 - Level 4: Mixed(416)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:73 - Level 4: Mixed(416)
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 10:12:37 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 10:12:49 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:12:49 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:12:54 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:12:54 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:12:54 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:12:54 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:12:54 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:12:54 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:12:55 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:12:55 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:12:55 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:12:55 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:12:55 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:12:55 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:12:55 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:12:55 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:19:06 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 10:19:06 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 10:19:06 ERROR TC_001_SearchForWebDevelopmentCourses:107 - An error occurred during the test case execution: 
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [018c3d167ee382eed97f096ac3c27a44, sendKeysToElement {value=[Ljava.lang.CharSequence;@7823f755, id=f.5490025071D165A1823BFB46882363BB.d.38A41D8DE01D205D6487B7F2192EE8AC.e.74}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59513/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (018c3d167ee382eed97f096ac3c27a44)] -> xpath: //input[@id='search-autocomplete-input']]
+Session ID: 018c3d167ee382eed97f096ac3c27a44
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110) ~[selenium-remote-driver-4.25.0.jar:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source) ~[?:?]
+	at pageObjects.HomePage.search(HomePage.java:27) ~[test-classes/:?]
+	at testCases.TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses(TC_001_SearchForWebDevelopmentCourses.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2024-11-05 10:19:06 INFO  TC_001_SearchForWebDevelopmentCourses:71 - Visible product found, applying difficulty filter
+2024-11-05 10:19:09 ERROR TC_001_SearchForWebDevelopmentCourses:107 - An error occurred during the test case execution: 
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [018c3d167ee382eed97f096ac3c27a44, findElement {value=//span[text()='Beginner'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59513/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 018c3d167ee382eed97f096ac3c27a44
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.25.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source) ~[?:?]
+	at pageObjects.WebDevelopmentPage.tickBeginnersCheckBox(WebDevelopmentPage.java:54) ~[test-classes/:?]
+	at testCases.TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses(TC_001_SearchForWebDevelopmentCourses.java:72) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2024-11-05 10:19:20 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 10:19:20 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 10:19:26 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 10:19:26 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 10:19:36 INFO  TC_002_Language_Learning:43 - No visible product found, clicking 'Show More'
+2024-11-05 10:19:36 INFO  TC_002_Language_Learning:45 - 'Show More' clicked
+2024-11-05 10:19:36 INFO  TC_002_Language_Learning:53 - Screenshot taken for languages learning
+2024-11-05 10:19:36 INFO  TC_002_Language_Learning:55 - LANGUAGES:
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 1: English(4,222)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 2: Spanish(2,392)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 3: Arabic(2,274)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 4: French(2,261)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 5: Portuguese (Brazil)(2,249)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 6: German(2,211)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 7: Chinese (China)(2,206)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 8: Indonesian(2,203)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 9: Japanese(2,191)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 10: Korean(2,187)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 11: Turkish(2,155)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 12: Ukrainian(2,154)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 13: Italian(2,147)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 14: Russian(2,143)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 15: Thai(2,133)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 16: Hindi(2,132)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 17: Polish(2,130)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 18: Swedish(2,130)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 19: Dutch(2,129)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 20: Greek(2,129)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 21: Kazakh(1,967)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 22: Hungarian(1,400)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 23: Pushto(229)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 24: Chinese (Traditional)(16)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 25: Vietnamese(7)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 26: Hebrew(3)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:61 - Language 27: Portuguese(1)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:67 - LEVELS:
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:73 - Level 1: Beginner(2,409)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:73 - Level 2: Intermediate(1,704)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:73 - Level 3: Advanced(179)
+2024-11-05 10:19:37 INFO  TC_002_Language_Learning:73 - Level 4: Mixed(416)
+2024-11-05 10:19:38 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 10:19:38 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 10:19:49 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:19:49 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:20:01 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:20:02 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:20:02 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:20:02 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:20:55 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 10:20:55 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 10:21:05 INFO  TC_001_SearchForWebDevelopmentCourses:41 - No visible product found, applying filters
+2024-11-05 10:21:05 INFO  TC_001_SearchForWebDevelopmentCourses:45 - English checkbox ticked
+2024-11-05 10:21:05 INFO  TC_001_SearchForWebDevelopmentCourses:47 - Beginners checkbox ticked
+2024-11-05 10:21:07 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 10:21:07 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 10:21:07 INFO  TC_001_SearchForWebDevelopmentCourses:66 - Screenshot taken for courses
+2024-11-05 10:21:08 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 10:21:08 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 10:21:16 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 10:21:16 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 10:21:21 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 10:21:21 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:43 - No visible product found, clicking 'Show More'
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:45 - 'Show More' clicked
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:53 - Screenshot taken for languages learning
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:55 - LANGUAGES:
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 1: English(4,224)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 2: Spanish(2,393)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 3: Arabic(2,274)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 4: French(2,261)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 5: Portuguese (Brazil)(2,249)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 6: German(2,211)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 7: Chinese (China)(2,206)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 8: Indonesian(2,203)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 9: Japanese(2,191)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 10: Korean(2,187)
+2024-11-05 10:21:31 INFO  TC_002_Language_Learning:61 - Language 11: Turkish(2,155)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 12: Ukrainian(2,154)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 13: Italian(2,147)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 14: Russian(2,143)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 15: Thai(2,133)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 16: Hindi(2,132)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 17: Polish(2,130)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 18: Swedish(2,130)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 19: Dutch(2,129)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 20: Greek(2,129)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 21: Kazakh(1,967)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 22: Hungarian(1,400)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 23: Pushto(229)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 24: Chinese (Traditional)(16)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 25: Vietnamese(7)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 26: Hebrew(3)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:61 - Language 27: Portuguese(1)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:67 - LEVELS:
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:73 - Level 1: Beginner(2,412)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:73 - Level 2: Intermediate(1,704)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:73 - Level 3: Advanced(179)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:73 - Level 4: Mixed(416)
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 10:21:32 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 10:21:44 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:21:44 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:21:53 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:21:54 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:21:54 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:21:54 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:21:54 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:22:26 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 10:22:26 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 10:22:26 INFO  TC_001_SearchForWebDevelopmentCourses:71 - Visible product found, applying difficulty filter
+2024-11-05 10:22:26 INFO  TC_001_SearchForWebDevelopmentCourses:73 - Beginners checkbox ticked
+2024-11-05 10:22:26 INFO  TC_001_SearchForWebDevelopmentCourses:75 - Clicked on result
+2024-11-05 10:22:28 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 10:22:28 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 10:22:28 INFO  TC_001_SearchForWebDevelopmentCourses:94 - Screenshot taken for courses
+2024-11-05 10:22:29 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 10:22:29 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 10:22:37 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 10:22:37 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 10:22:42 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 10:22:42 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 10:22:42 INFO  TC_002_Language_Learning:80 - Visible product found, clicking 'Language Button'
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:82 - 'Language Button' clicked
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:88 - LANGUAGES:
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 1: English
+(4,222)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 2: Spanish
+(2,392)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 3: Arabic
+(2,274)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 4: French
+(2,261)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 5: Portuguese (Brazil)
+(2,249)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 6: German
+(2,211)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 7: Chinese (China)
+(2,206)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 8: Indonesian
+(2,203)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 9: Japanese
+(2,191)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 10: Korean
+(2,187)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 11: Turkish
+(2,155)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 12: Ukrainian
+(2,154)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 13: Italian
+(2,147)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 14: Russian
+(2,143)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 15: Thai
+(2,133)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 16: Hindi
+(2,132)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 17: Polish
+(2,130)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 18: Swedish
+(2,130)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 19: Dutch
+(2,129)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 20: Greek
+(2,129)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 21: Kazakh
+(1,967)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 22: Hungarian
+(1,400)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 23: Pushto
+(229)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 24: Chinese (Traditional)
+(16)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 25: Vietnamese
+(7)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 26: Hebrew
+(3)
+2024-11-05 10:22:43 INFO  TC_002_Language_Learning:94 - Language 27: Portuguese
+(1)
+2024-11-05 10:22:44 INFO  TC_002_Language_Learning:102 - 'Result' clicked
+2024-11-05 10:22:44 INFO  TC_002_Language_Learning:105 - 'Difficulty' clicked
+2024-11-05 10:22:44 INFO  TC_002_Language_Learning:108 - Screenshot taken for languages learning
+2024-11-05 10:22:44 INFO  TC_002_Language_Learning:110 - LEVELS:
+2024-11-05 10:22:44 INFO  TC_002_Language_Learning:116 - Level 1: Beginner
+(2,114)
+2024-11-05 10:22:44 INFO  TC_002_Language_Learning:116 - Level 2: Intermediate
+(1,552)
+2024-11-05 10:22:44 INFO  TC_002_Language_Learning:116 - Level 3: Advanced
+(155)
+2024-11-05 10:22:44 INFO  TC_002_Language_Learning:116 - Level 4: Mixed
+(351)
+2024-11-05 10:22:45 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 10:22:45 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 10:22:53 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:22:53 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:22:59 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:22:59 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:22:59 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:22:59 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:22:59 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:22:59 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:22:59 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:22:59 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:22:59 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:23:00 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:23:00 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:23:00 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:23:00 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:23:00 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:24:34 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:24:34 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:25:39 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:25:39 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:25:39 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:25:39 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:25:39 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:25:39 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:25:40 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:25:40 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:25:40 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:25:40 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:25:40 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:25:40 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:25:40 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:25:40 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:31:16 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:31:16 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:32:51 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:32:52 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:32:52 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:32:52 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:36:37 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:36:37 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:38:13 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:38:13 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:38:13 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:38:13 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:38:13 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:38:14 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:38:14 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:38:14 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:38:14 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:38:14 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:38:14 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:38:14 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:38:14 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:38:14 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 10:41:10 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 10:41:10 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 10:42:50 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 10:42:51 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 10:42:51 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 10:42:51 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 10:42:51 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 11:22:18 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 11:22:18 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 11:22:18 INFO  TC_001_SearchForWebDevelopmentCourses:71 - Visible product found, applying difficulty filter
+2024-11-05 11:22:18 INFO  TC_001_SearchForWebDevelopmentCourses:73 - Beginners checkbox ticked
+2024-11-05 11:22:19 INFO  TC_001_SearchForWebDevelopmentCourses:75 - Clicked on result
+2024-11-05 11:22:20 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 11:22:20 INFO  TC_001_SearchForWebDevelopmentCourses:89 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 11:22:21 INFO  TC_001_SearchForWebDevelopmentCourses:94 - Screenshot taken for courses
+2024-11-05 11:22:21 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 11:22:21 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 11:22:39 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 11:22:39 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 11:22:43 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 11:22:43 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 11:22:43 INFO  TC_002_Language_Learning:80 - Visible product found, clicking 'Language Button'
+2024-11-05 11:22:43 INFO  TC_002_Language_Learning:82 - 'Language Button' clicked
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:88 - LANGUAGES:
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 1: English
+(4,224)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 2: Spanish
+(2,393)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 3: Arabic
+(2,274)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 4: French
+(2,261)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 5: Portuguese (Brazil)
+(2,249)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 6: German
+(2,211)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 7: Chinese (China)
+(2,206)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 8: Indonesian
+(2,203)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 9: Japanese
+(2,191)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 10: Korean
+(2,187)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 11: Turkish
+(2,155)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 12: Ukrainian
+(2,154)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 13: Italian
+(2,147)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 14: Russian
+(2,143)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 15: Thai
+(2,133)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 16: Hindi
+(2,132)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 17: Polish
+(2,130)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 18: Swedish
+(2,130)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 19: Dutch
+(2,129)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 20: Greek
+(2,129)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 21: Kazakh
+(1,967)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 22: Hungarian
+(1,400)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 23: Pushto
+(229)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 24: Chinese (Traditional)
+(16)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 25: Vietnamese
+(7)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 26: Hebrew
+(3)
+2024-11-05 11:22:44 INFO  TC_002_Language_Learning:94 - Language 27: Portuguese
+(1)
+2024-11-05 11:22:45 INFO  TC_002_Language_Learning:102 - 'Result' clicked
+2024-11-05 11:22:45 INFO  TC_002_Language_Learning:105 - 'Difficulty' clicked
+2024-11-05 11:22:45 INFO  TC_002_Language_Learning:108 - Screenshot taken for languages learning
+2024-11-05 11:22:45 INFO  TC_002_Language_Learning:110 - LEVELS:
+2024-11-05 11:22:45 INFO  TC_002_Language_Learning:116 - Level 1: Beginner
+(2,116)
+2024-11-05 11:22:45 INFO  TC_002_Language_Learning:116 - Level 2: Intermediate
+(1,552)
+2024-11-05 11:22:45 INFO  TC_002_Language_Learning:116 - Level 3: Advanced
+(155)
+2024-11-05 11:22:45 INFO  TC_002_Language_Learning:116 - Level 4: Mixed
+(351)
+2024-11-05 11:22:46 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 11:22:46 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 11:22:53 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 11:22:53 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 11:23:34 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 11:23:34 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 11:23:34 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 11:23:34 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 11:23:35 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 14:04:49 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 14:04:50 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 14:05:00 INFO  TC_001_SearchForWebDevelopmentCourses:41 - No visible product found, applying filters
+2024-11-05 14:05:00 INFO  TC_001_SearchForWebDevelopmentCourses:45 - English checkbox ticked
+2024-11-05 14:05:00 INFO  TC_001_SearchForWebDevelopmentCourses:47 - Beginners checkbox ticked
+2024-11-05 14:05:03 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 14:05:03 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 14:05:03 INFO  TC_001_SearchForWebDevelopmentCourses:66 - Screenshot taken for courses
+2024-11-05 14:05:05 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 14:05:05 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed
+2024-11-05 14:05:17 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 14:05:17 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 14:05:54 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 14:05:54 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 14:06:04 INFO  TC_002_Language_Learning:43 - No visible product found, clicking 'Show More'
+2024-11-05 14:06:04 INFO  TC_002_Language_Learning:45 - 'Show More' clicked
+2024-11-05 14:06:04 INFO  TC_002_Language_Learning:53 - Screenshot taken for languages learning
+2024-11-05 14:06:04 INFO  TC_002_Language_Learning:55 - LANGUAGES:
+2024-11-05 14:06:04 INFO  TC_002_Language_Learning:61 - Language 1: English(4,224)
+2024-11-05 14:06:04 INFO  TC_002_Language_Learning:61 - Language 2: Spanish(2,393)
+2024-11-05 14:06:04 INFO  TC_002_Language_Learning:61 - Language 3: Arabic(2,274)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 4: French(2,261)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 5: Portuguese (Brazil)(2,249)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 6: German(2,211)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 7: Chinese (China)(2,206)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 8: Indonesian(2,203)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 9: Japanese(2,191)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 10: Korean(2,187)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 11: Turkish(2,155)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 12: Ukrainian(2,154)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 13: Italian(2,147)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 14: Russian(2,143)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 15: Thai(2,133)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 16: Hindi(2,132)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 17: Polish(2,130)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 18: Swedish(2,130)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 19: Dutch(2,129)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 20: Greek(2,129)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 21: Kazakh(1,967)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 22: Hungarian(1,400)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 23: Pushto(229)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 24: Chinese (Traditional)(16)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 25: Vietnamese(7)
+2024-11-05 14:06:05 INFO  TC_002_Language_Learning:61 - Language 26: Hebrew(3)
+2024-11-05 14:06:06 INFO  TC_002_Language_Learning:61 - Language 27: Portuguese(1)
+2024-11-05 14:06:06 INFO  TC_002_Language_Learning:67 - LEVELS:
+2024-11-05 14:06:06 INFO  TC_002_Language_Learning:73 - Level 1: Beginner(2,412)
+2024-11-05 14:06:06 INFO  TC_002_Language_Learning:73 - Level 2: Intermediate(1,704)
+2024-11-05 14:06:06 INFO  TC_002_Language_Learning:73 - Level 3: Advanced(179)
+2024-11-05 14:06:06 INFO  TC_002_Language_Learning:73 - Level 4: Mixed(416)
+2024-11-05 14:06:06 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 14:06:06 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 14:06:17 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 14:06:17 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 14:07:26 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 14:07:26 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 14:07:26 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 14:07:27 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 14:07:27 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 14:07:27 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 14:07:28 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 14:07:28 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 14:07:28 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 14:07:28 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 14:07:28 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 14:07:29 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 14:07:29 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 14:07:29 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 14:10:00 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 14:10:00 ERROR TC_001_SearchForWebDevelopmentCourses:107 - An error occurred during the test case execution: 
+org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25d033d57b10a134e5764aaf4b0e6b4f, sendKeysToElement {value=[Ljava.lang.CharSequence;@67887b13, id=f.677D55677C75EC509159FD6B716A683D.d.455119AB4EFDABD9F746032FFC6FD19B.e.53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61449/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (25d033d57b10a134e5764aaf4b0e6b4f)] -> xpath: //input[@id='search-autocomplete-input']]
+Session ID: 25d033d57b10a134e5764aaf4b0e6b4f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110) ~[selenium-remote-driver-4.25.0.jar:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy31.sendKeys(Unknown Source) ~[?:?]
+	at pageObjects.HomePage.search(HomePage.java:27) ~[test-classes/:?]
+	at testCases.TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses(TC_001_SearchForWebDevelopmentCourses.java:24) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2024-11-05 14:10:00 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 14:10:05 ERROR TC_001_SearchForWebDevelopmentCourses:107 - An error occurred during the test case execution: 
+org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25d033d57b10a134e5764aaf4b0e6b4f, findElement {value=//div[text()="Difficulty"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61449/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25d033d57b10a134e5764aaf4b0e6b4f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.25.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source) ~[?:?]
+	at pageObjects.WebDevelopmentPage.clickDifficulty(WebDevelopmentPage.java:86) ~[test-classes/:?]
+	at testCases.TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses(TC_001_SearchForWebDevelopmentCourses.java:70) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:840) [?:?]
+2024-11-05 14:10:12 INFO  TC_002_Language_Learning:20 - Starting test case: selectingLanguages
+2024-11-05 14:10:12 INFO  TC_002_Language_Learning:24 - HomePage object created
+2024-11-05 14:10:50 INFO  TC_002_Language_Learning:28 - Performed search for 'Language Learning'
+2024-11-05 14:10:50 INFO  TC_002_Language_Learning:32 - LanguageLearningPage object created
+2024-11-05 14:11:00 INFO  TC_002_Language_Learning:43 - No visible product found, clicking 'Show More'
+2024-11-05 14:11:01 INFO  TC_002_Language_Learning:45 - 'Show More' clicked
+2024-11-05 14:11:02 INFO  TC_002_Language_Learning:53 - Screenshot taken for languages learning
+2024-11-05 14:11:02 INFO  TC_002_Language_Learning:55 - LANGUAGES:
+2024-11-05 14:11:02 INFO  TC_002_Language_Learning:61 - Language 1: English(4,222)
+2024-11-05 14:11:02 INFO  TC_002_Language_Learning:61 - Language 2: Spanish(2,392)
+2024-11-05 14:11:02 INFO  TC_002_Language_Learning:61 - Language 3: Arabic(2,274)
+2024-11-05 14:11:02 INFO  TC_002_Language_Learning:61 - Language 4: French(2,261)
+2024-11-05 14:11:02 INFO  TC_002_Language_Learning:61 - Language 5: Portuguese (Brazil)(2,249)
+2024-11-05 14:11:02 INFO  TC_002_Language_Learning:61 - Language 6: German(2,211)
+2024-11-05 14:11:03 INFO  TC_002_Language_Learning:61 - Language 7: Chinese (China)(2,206)
+2024-11-05 14:11:03 INFO  TC_002_Language_Learning:61 - Language 8: Indonesian(2,203)
+2024-11-05 14:11:03 INFO  TC_002_Language_Learning:61 - Language 9: Japanese(2,191)
+2024-11-05 14:11:03 INFO  TC_002_Language_Learning:61 - Language 10: Korean(2,187)
+2024-11-05 14:11:04 INFO  TC_002_Language_Learning:61 - Language 11: Turkish(2,155)
+2024-11-05 14:11:04 INFO  TC_002_Language_Learning:61 - Language 12: Ukrainian(2,154)
+2024-11-05 14:11:04 INFO  TC_002_Language_Learning:61 - Language 13: Italian(2,147)
+2024-11-05 14:11:04 INFO  TC_002_Language_Learning:61 - Language 14: Russian(2,143)
+2024-11-05 14:11:04 INFO  TC_002_Language_Learning:61 - Language 15: Thai(2,133)
+2024-11-05 14:11:04 INFO  TC_002_Language_Learning:61 - Language 16: Hindi(2,132)
+2024-11-05 14:11:04 INFO  TC_002_Language_Learning:61 - Language 17: Polish(2,130)
+2024-11-05 14:11:05 INFO  TC_002_Language_Learning:61 - Language 18: Swedish(2,130)
+2024-11-05 14:11:05 INFO  TC_002_Language_Learning:61 - Language 19: Dutch(2,129)
+2024-11-05 14:11:05 INFO  TC_002_Language_Learning:61 - Language 20: Greek(2,129)
+2024-11-05 14:11:05 INFO  TC_002_Language_Learning:61 - Language 21: Kazakh(1,967)
+2024-11-05 14:11:05 INFO  TC_002_Language_Learning:61 - Language 22: Hungarian(1,400)
+2024-11-05 14:11:05 INFO  TC_002_Language_Learning:61 - Language 23: Pushto(229)
+2024-11-05 14:11:05 INFO  TC_002_Language_Learning:61 - Language 24: Chinese (Traditional)(16)
+2024-11-05 14:11:05 INFO  TC_002_Language_Learning:61 - Language 25: Vietnamese(7)
+2024-11-05 14:11:06 INFO  TC_002_Language_Learning:61 - Language 26: Hebrew(3)
+2024-11-05 14:11:06 INFO  TC_002_Language_Learning:61 - Language 27: Portuguese(1)
+2024-11-05 14:11:06 INFO  TC_002_Language_Learning:67 - LEVELS:
+2024-11-05 14:11:06 INFO  TC_002_Language_Learning:73 - Level 1: Beginner(2,409)
+2024-11-05 14:11:06 INFO  TC_002_Language_Learning:73 - Level 2: Intermediate(1,704)
+2024-11-05 14:11:06 INFO  TC_002_Language_Learning:73 - Level 3: Advanced(179)
+2024-11-05 14:11:06 INFO  TC_002_Language_Learning:73 - Level 4: Mixed(416)
+2024-11-05 14:11:10 INFO  TC_002_Language_Learning:126 - Assertion passed: Search results are visible
+2024-11-05 14:11:10 INFO  TC_002_Language_Learning:127 - Test case: selectingLanguages completed
+2024-11-05 14:11:30 INFO  TC_003_FormFilling:17 - Starting test case: formFilling
+2024-11-05 14:11:30 INFO  TC_003_FormFilling:21 - HomePage object created
+2024-11-05 14:13:08 INFO  TC_003_FormFilling:25 - Clicked on 'For Enterprise'
+2024-11-05 14:13:08 INFO  TC_003_FormFilling:29 - ForEnterprisePage object created
+2024-11-05 14:13:08 INFO  TC_003_FormFilling:33 - Set first name: athul
+2024-11-05 14:13:08 INFO  TC_003_FormFilling:36 - Set last name: krishna
+2024-11-05 14:13:09 INFO  TC_003_FormFilling:39 - Set email: aeVV
+2024-11-05 14:13:09 INFO  TC_003_FormFilling:42 - Set phone: 7.025825658E9
+2024-11-05 14:13:09 INFO  TC_003_FormFilling:45 - Set title: fresher
+2024-11-05 14:13:09 INFO  TC_003_FormFilling:48 - Set number of learners: 5.0
+2024-11-05 14:13:09 INFO  TC_003_FormFilling:51 - Set country: India
+2024-11-05 14:13:10 INFO  TC_003_FormFilling:54 - Set needs: Courses
+2024-11-05 14:13:10 INFO  TC_003_FormFilling:58 - Form submitted
+2024-11-05 14:13:11 INFO  TC_003_FormFilling:62 - Screenshot taken for form filling
+2024-11-05 14:13:11 INFO  TC_003_FormFilling:66 - Error message: Must be valid email.
+example@yourdomain.com
+2024-11-05 14:13:11 INFO  TC_003_FormFilling:71 - Assertion passed: Error message contains expected text
+2024-11-05 14:18:49 INFO  TC_001_SearchForWebDevelopmentCourses:36 - Navigating to Home Page
+2024-11-05 14:18:49 INFO  TC_001_SearchForWebDevelopmentCourses:40 - Searching for 'Web Development' courses
+2024-11-05 14:18:59 INFO  TC_001_SearchForWebDevelopmentCourses:52 - No visible product found, applying filters
+2024-11-05 14:19:09 ERROR TC_001_SearchForWebDevelopmentCourses:118 - An error occurred during the test case execution: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='English']"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b27a57f4fe12f43bdf4ea17bb99541c0, findElement {using=xpath, value=//span[text()='English']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.119 (bdef6783a05..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62600}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62600/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b27a57f4fe12f43bdf4ea17bb99541c0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362) ~[selenium-remote-driver-4.25.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.25.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.25.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy30.click(Unknown Source) ~[?:?]
+	at pageObjects.WebDevelopmentPage.tickEnglishCheckBox(WebDevelopmentPage.java:49) ~[test-classes/:?]
+	at testCases.TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses(TC_001_SearchForWebDevelopmentCourses.java:55) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1063) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestNG.run(TestNG.java:1031) [org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+2024-11-05 14:20:29 INFO  TC_001_SearchForWebDevelopmentCourses:25 - Navigating to Home Page
+2024-11-05 14:20:29 INFO  TC_001_SearchForWebDevelopmentCourses:29 - Searching for 'Web Development' courses
+2024-11-05 14:20:39 INFO  TC_001_SearchForWebDevelopmentCourses:41 - No visible product found, applying filters
+2024-11-05 14:20:40 INFO  TC_001_SearchForWebDevelopmentCourses:45 - English checkbox ticked
+2024-11-05 14:20:41 INFO  TC_001_SearchForWebDevelopmentCourses:47 - Beginners checkbox ticked
+2024-11-05 14:20:44 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 1: Title: Introduction to Web Development, Rating: 4.7, Length: Beginner · Course · 1 - 4 Weeks
+2024-11-05 14:20:44 INFO  TC_001_SearchForWebDevelopmentCourses:61 - Course 2: Title: Web Design for Everybody: Basics of Web Development & Coding, Rating: 4.7, Length: Beginner · Specialization · 3 - 6 Months
+2024-11-05 14:20:45 INFO  TC_001_SearchForWebDevelopmentCourses:66 - Screenshot taken for courses
+2024-11-05 14:20:47 INFO  TC_001_SearchForWebDevelopmentCourses:102 - Assertion passed: Search results are visible
+2024-11-05 14:20:47 INFO  TC_001_SearchForWebDevelopmentCourses:103 - Test case: SearchForWebDevelopmentCourses completed

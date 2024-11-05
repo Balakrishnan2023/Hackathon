@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-05T14:19:36 IST" name="Default suite" finished-at="2024-11-05T14:20:47 IST" duration-ms="70709">
+    <groups>
+      <group name="regression">
+        <method signature="TC_001_SearchForWebDevelopmentCourses.SearchForWebDevelopmentCourses()[pri:0, instance:testCases.TC_001_SearchForWebDevelopmentCourses@47e2e487]" name="SearchForWebDevelopmentCourses" class="testCases.TC_001_SearchForWebDevelopmentCourses"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2024-11-05T14:19:36 IST" name="Default test" finished-at="2024-11-05T14:20:47 IST" duration-ms="70709">
+      <class name="testCases.TC_001_SearchForWebDevelopmentCourses">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_SearchForWebDevelopmentCourses@47e2e487]" started-at="2024-11-05T14:19:37 IST" name="setup" finished-at="2024-11-05T14:19:49 IST" duration-ms="12552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchForWebDevelopmentCourses()[pri:0, instance:testCases.TC_001_SearchForWebDevelopmentCourses@47e2e487]" started-at="2024-11-05T14:19:49 IST" name="SearchForWebDevelopmentCourses" finished-at="2024-11-05T14:20:47 IST" duration-ms="57669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchForWebDevelopmentCourses -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_SearchForWebDevelopmentCourses@47e2e487]" started-at="2024-11-05T14:20:47 IST" name="tearDown" finished-at="2024-11-05T14:20:47 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_SearchForWebDevelopmentCourses -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
